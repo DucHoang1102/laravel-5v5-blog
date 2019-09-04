@@ -22,3 +22,6 @@ Route::get('/', 'PostController@lists')->name('post.list');
 Route::get('/post/detail/{id}', 'PostController@detail')->where('id', '[0-9]+')->name('post.detail');
 
 
+Route::get('/test', function () {
+    return 'Duc Hoang';
+})
