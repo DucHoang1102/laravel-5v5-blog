@@ -23,5 +23,5 @@ Route::get('/post/detail/{id}', 'PostController@detail')->where('id', '[0-9]+')-
 
 
 Route::get('/test', function () {
-    return 'Duc Hoang';
+    return 'Duc Hoang. Ahihi';
 })
